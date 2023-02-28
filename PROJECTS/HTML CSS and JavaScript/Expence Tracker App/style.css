@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.box{
+    background-color: white;
+    width: 450px;
+    height: 850px;
+    padding: 20px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+
+p{
+    font-size: 14px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.box_upper,
+.balance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.balance{
+    margin-top: 10px;
+}
+
+.transaction_con{
+    margin-top: 20px;
+}
+
+.transactions{
+    margin-top: 20px;
+}
+
+.transaction .left{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
